@@ -9,41 +9,48 @@
     <link href="css/bootstrap-4.4.1.css" rel="stylesheet">
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <a class="navbar-brand" href="#">Navbar</a>
+	 <nav class="navbar navbar-expand-lg navbar-dark bg-dark" role="navigation" style="cap">
+      <a class="navbar-brand" href="#">TAAI 2020</a>
+    </nav>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" role="navigation" style="cap">
+      <a class="navbar-brand" href="#">TAAI 2020</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-          </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
+            <a class="nav-link" href="#news">News</a>
           </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Dropdown
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Something else here</a>
-            </div>
+		  <li class="nav-item">
+            <a class="nav-link" href="#sub/reg">Submission/Registration</a>
           </li>
+		  <li class="nav-item">
+            <a class="nav-link" href="#committees">Committees</a>
+          </li>
+
+       
           <li class="nav-item">
-            <a class="nav-link disabled" href="#">Disabled</a>
+            <a class="nav-link" href="#program">Program</a>
           </li>
+		  <li class="nav-item">
+            <a class="nav-link" href="#talks">Invited Talks</a>
+          </li>
+		  <li class="nav-item">
+            <a class="nav-link" href="#cfp">CFP</a>
+          </li>
+		  <li class="nav-item">
+            <a class="nav-link" href="#venue">Venue</a>
+          </li>
+		  <li class="nav-item">
+            <a class="nav-link" href="#patrons">Patrons</a>
+          </li>
+          
         </ul>
-        <form class="form-inline my-2 my-lg-0">
-          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-        </form>
       </div>
     </nav>
-	 <div class="jumbotron-fluid">
+	</div>
+	 <div class="jumbotron-fluid" style="margin: auto">
       <img src="images/101.jpg" class="img-fluid">	
     </div>
     <section>
@@ -60,122 +67,395 @@
         </div>
       </div>
     </section>
-    <section>
-      <div class="container mt-2">
-        <div class="row">
-          <div class="col-md-4 col-12">
-            <ul class="list-unstyled">
-              <li class="media">
-                <img class="mr-3" src="images/35X35.gif" alt="Generic placeholder image">
-                <div class="media-body">
-                  <h5 class="mt-0 mb-1">List-based media object</h5>
-                  Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin.
-                </div>
-              </li>
-            </ul>
-          </div>
-          <div class="col-md-4 col-12">
-            <ul class="list-unstyled">
-              <li class="media">
-                <img class="mr-3" src="images/35X35.gif" alt="Generic placeholder image">
-                <div class="media-body">
-                  <h5 class="mt-0 mb-1">List-based media object</h5>
-                  Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin.
-                </div>
-              </li>
-            </ul>
-          </div>
-          <div class="col-md-4 col-12">
-            <ul class="list-unstyled">
-              <li class="media">
-                <img class="mr-3" src="images/35X35.gif" alt="Generic placeholder image">
-                <div class="media-body">
-                  <h5 class="mt-0 mb-1">List-based media object</h5>
-                  Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin.
-                </div>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section>
+	<section id="news">
       <div class="container">
-        <div class="row">
-          <div class="col-12 text-center">
-            <h2>Latest Work</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia, et, placeat !</p>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-6 col-12 text-center">
-            <img class="img-fluid" src="images/400x400.gif" alt="">
-            <h4>Lorem ipsum dolor sit amet, consectetur elit</h4>
-            <h6>Lorem ipsum dolor sit amet, consectetur elit</h6>
-          </div>
-          <div class="col-md-6 col-12 text-center mt-md-0 mt-2">
-            <img class="img-fluid" src="images/400x400.gif" alt="">
-            <h4>Lorem ipsum dolor sit amet, consectetur elit</h4>
-            <h6>Lorem ipsum dolor sit amet, consectetur elit</h6>
-          </div>
-        </div>
-        <div class="row mt-2">
-          <div class="col-md-3 col-6"><img class="img-fluid float-right" src="images/200x200.gif" alt=""></div>
-          <div class="col-md-3 col-6"><img class="img-fluid float-left" src="images/200x200.gif" alt=""></div>
-          <div class="col-md-3 col-6 mt-md-0 mt-1"><img class="img-fluid float-right" src="images/200x200.gif" alt=""></div>
-          <div class="col-md-3 col-6 mt-md-0 mt-1"><img class="img-fluid float-left" src="images/200x200.gif" alt=""></div>
-        </div>
-        <hr>
-        <div class="row">
-          <div class="col-md-3 col-6"><img class="img-fluid float-right" src="images/200x200.gif" alt=""></div>
-          <div class="col-md-3 col-6"><img class="img-fluid float-left" src="images/200x200.gif" alt=""></div>
-          <div class="col-md-3 col-6 mt-md-0 mt-1"><img class="img-fluid float-right" src="images/200x200.gif" alt=""></div>
-          <div class="col-md-3 col-6 mt-md-0 mt-1"><img class="img-fluid float-left" src="images/200x200.gif" alt=""></div>
-        </div>
-      </div>
+		<div class="row">
+          	<div class="col-12 text-center">
+		  		<h1></br>News</h1>
+            <table width=100%>
+				<tr><th style="width: 20%;border-bottom: 3px solid;">Date</th><th style="width: 80%;border-bottom: 3px solid;">Description</th></tr>
+				<tr><td> May 30, 2020</td><td>The TAAI 2020 official website is online</td></tr>
+
+			</table>
+    		</div>
+		</div>
+	</div>
     </section>
-    <hr>
-    <section>
+	
+	<section id="sub/reg">
       <div class="container">
-        <div class="row">
-          <div class="col-12 text-center">
-            <h1>Lorem ipsum dolor sit amet</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam, magni, doloribus, possimus eum sapiente deleniti doloremque fugit ut expedita molestiae iusto debitis eveniet modi obcaecati ipsam quos quis labore dicta.</p>
-            <button type="button" class="btn btn-success">Get in touch</button>
-          </div>
-        </div>
-      </div>
+		  <div class="row">
+          	<div class="col-12 text-left">
+		  	<h1 class="text-center"></br>Submission & Registration</h1>
+              <h2>Submission Guidelines</h2>
+				<p><b>International track : </b>The paper format should follow IEEE Manuscript Templates for Conference Proceedings (templates: word, latex tex, bst) to prepare manuscripts. The paper length is 4 to 6 pages.</p>
+	
+				<p><b>Domestic track : </b>The paper format should follow the IEEE Manuscript Templates for Conference Proceedings (templates: word, latex tex, bst) to prepare manuscripts. Additional format specification for papers in Chinese is stated below (Chinese-format). The paper length is 2 to 4 pages.</p>
+
+				<p><b>Industrial track : </b>The same as that in the domestic track. The paper length is 2 to 4 pages.</p>
+
+				<p><b>International special session : </b>The same as that in the international track. The paper length is 4 to 6 pages</p>
+
+				<p><b>Domestic special session : </b>The same as that in the domestic track. The paper length is 2 to 4 pages.</p>
+
+				<p><b>Submission Link : </b>The direct link for paper submission is <a href="#">HERE</a></p>
+				<h2 style="font-size: 1.5em">Important Dates</h2>
+				<p>Paper Submission: <font color="red">Aug. 1, 2020</font></p>
+				<p>Notification: <font color="red">Sep. 20, 2020</font></p>
+				<p>Camera-ready and Registration: <font color="red">Oct. 1, 2020</font></p>
+
+				<h2 style="font-size: 1.5em">Registration</h2>
+				<p><strong>Registration Link</strong></p>
+				<p>The direct link for register is <a href="#">HERE</a></p>
+				<p><strong>Author Registration Deadline : TBD</strong></p>
+				<p><strong>Participant Registration Deadline : TBD</strong></p>
+						</div>
+					</div>
+				</div>
     </section>
-    <hr>
-    <div class="section">
+	<section id="committees">
       <div class="container">
-        <div class="row">
-          <div class="col-md-4 col-12">
-            <h3 class="text-center">WHO WE ARE</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus, ducimus, sit, quibusdam quidem recusandae veniam eos quod error nisi repellat excepturi laboriosam aspernatur suscipit possimus consectetur dolores nihil labore quas eius illo accusamus nulla sed blanditiis porro accusantium. Perspiciatis, perferendis!</p>
-          </div>
-          <div class="col-md-4 col-12">
-            <h3 class="text-center">GET IN TOUCH</h3>
-            <address class="text-center">
-              <strong>MyCompany, Inc.</strong><br>
-              Sunny Autumn Plaza, Grand Coulee,<br>
-              CA, 91308-4075, US<br>
-              <abbr title="Phone">P:</abbr> (123) 456-7890
-            </address>
-          </div>
-          <div class="col-md-4 col-12">
-            <h3 class="text-center">NEWSLETTER</h3>
-            <form>
-              <div class="form-group col-12">
-                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
-                <button type="submit" class="btn btn-dark mt-2">Subscribe</button>
-              </div>
-            </form>
-          </div>
-        </div>
-      </div>
-    </div>
-    <hr>
+		  <div class="row">
+          	<div class="col-12 text-left">
+		  <h1 class="text-center"></br>Committees</h1>
+     <details>
+	 <summary style="text-align: left; color:gray;font-size: 1.5em">Organizing Committee</summary>
+    <div style="font-size: 1.2em;font-weight: bold">Honorary General Chair</div>
+	<p>Prof. Jing-Yang Jou, National Central University, Taiwan</p>
+	<div style="font-size: 1.2em;font-weight: bold">General Chairs</div>
+	<p>Prof. Chia-Hui Chang, National Central University, Taiwan</p>
+	<p>Prof. Timothy K. Shih, National Central University, Taiwan</p>
+	<div style="font-size: 1.2em;font-weight: bold">International Program Chair</div>
+	<p>Prof. Yao-Yi Chiang, University of Southern California, CA</p>
+	<p>Prof. Po-Chyi Su, National Central University, Taiwan</p>
+	<p>Prof. Yasufumi Takama, Tokyo Metropolitan University, Japan</p>
+	<div style="font-size: 1.2em;font-weight: bold">Domestic Program Chair</div>
+	<p>Prof. Rung-Ching Chen, Chaoyang University of Technology, Taiwan</p>
+	<p>Prof. Hsien-Chou Liao, Chaoyang University of Technology, Taiwan</p>
+	<p>Prof. Shih-Hung Wu, Chaoyang University of Technology, Taiwan</p>
+	<div style="font-size: 1.2em;font-weight: bold">Special Session Chair</div>
+	<p>Prof. Lieu-Hen Chen, National Chi Nan University, Taiwan</p>
+	<div style="font-size: 1.2em;font-weight: bold">Industry Track Chair</div>
+	<p>Prof. Mong-Fong Horng, National Kaohsiung University of Science and Technology, Taiwan</p>
+	<div style="font-size: 1.2em;font-weight: bold">Tutorial Chair</div>
+	<p>Prof. Yi-Shin Chen, National Tsing Hua University, Taiwan</p>
+	<p>Prof. Jen-Wei Huang, National Cheng Kung University, Taiwan</p>
+	<div style="font-size: 1.2em;font-weight: bold">Publication Chair</div>
+	<p>Prof. Chih-Chieh Hung, Tamkang University, Taiwan</p>
+	<div style="font-size: 1.2em;font-weight: bold">Game Tournament Chair</div>
+	<p>Prof. Shi-Jim Yen, National Dong Hwa University, Taiwan</p>
+	<div style="font-size: 1.2em;font-weight: bold">Financial Chair</div>
+	<p>Prof. Hung-Hsuan Chen, National Central University, Taiwan</p>
+	<div style="font-size: 1.2em;font-weight: bold">Web Chair</div>
+	<p>Prof. Tseng-Yi Chen, National Central University, Taiwan</p>
+	<div style="font-size: 1.2em;font-weight: bold">Sponsorship Chair</div>
+	<p>Prof. Hung-Yu Kao, National Cheng Kung University, Taiwan</p>
+	<p>Prof. Deron Liang, National Central University, Taiwan</p>
+
+    </details>
+    <details>
+        <summary style="text-align: left; color:gray;font-size: 1.5em">Program Committee</summary>
+      <p>Albert Bakhtizin, Central Economics and Mathematics Institute of Russian Academy of Sciences, Russia</p>
+	<p>Andrea Salfinger, Johannes Kepler University Linz, Austria</p>
+	<p>Been-Chian Chien, National University of Tainan, Taiwan</p>
+	<p>Bi-Ru Dai, National Taiwan University of Science and Technology, Taiwan</p>
+    <p>Bor-Shen Lin, National Taiwan University of Science and Technology, Taiwan</p>
+	<p>Cameron Browne, Queensland University of Technology, Australia</p>
+	<p>Cheng-Hsuan Li, National Taichung University of Education, Taiwan</p>
+	<p>Cheng-Te Li, National Cheng Kung University, Taiwan</p>
+	<p>Cheng-Zen Yang, Yuan Ze University, Taiwan</p>
+	<p>Chenn-Jung Huang, National Dong Hwa University, Taiwan</p>
+	<p>Chia-Hui Chang, National Central University, Taiwan</p>
+	<p>Chienchou Lin, National Yunlin University of Science and Technology, Taiwan</p>
+	<p>Chien-Feng Huang, National University of Kaohsiung, Taiwan</p>
+	<p>Chih-Chin Lai, National University of Kaohsiung, Taiwan</p>
+	<p>Chih-Hua Tai, National Taiwan University, Taiwan</p>
+	<p>Chih-Hung Wu, National University of Kaohsiung, Taiwan</p>
+	<p>Chih-Ya Shen, National Tsing Hua University, Taiwan</p>
+	<p>Ching-Hu Lu, National Taiwan University of Science and Technology, Taiwan</p>
+	<p>Chuan-Kang Ting, National Chung Cheng University, Taiwan</p>
+	<p>Chung-Hong Lee, National Kaohsiung University of Applied Sciences, Taiwan</p>
+	<p>Chun-Hao Chen, Tamkang University, Taiwan</p>
+	<p>Chun-Wei Tsai, National Chung Hsing University, Taiwan</p>
+	<p>De-Nian Yang, Academia Sinica, Taiwan</p>
+	<p>Eri Sato-Shimokawara, Tokyo Metropolitan University, Japan</p>
+	<p>Giuseppe D'Aniello, Ingegneria Elettrica e Matematica Applicata, Italy</p>
+	<p>Guanling Lee, National Dong Hwa University, Taiwan</p>
+	<p>Hsiao-Ping Tsai, National Chung Hsing University, Taiwan</p>
+	<p>Hsin-Hung Chou, Chang Jung Christian University, Taiwan</p>
+	<p>Hsin-Min Wang, Academia Sinica, Taiwan</p>
+	<p>Hsin-Te Wu, National Penghu University of Science and Technology, Taiwan</p>
+	<p>Hsiu-Min Chuang, National Central University, Taiwan</p>
+	<p>Hsuan-Tien Lin, National Taiwan University, Taiwan</p>
+	<p>Hsun-Ping Hsieh, National Cheng Kung University, Taiwan</p>
+	<p>Hung-Hsuan Chen, National Central University, Taiwan</p>
+	<p>Hung-Yu Kao, National Cheng Kung University, Taiwan</p>
+	<p>I-Chen Wu, National Chiao Tung University, Taiwan</p>
+	<p>I-Hsien Ting, National University of Kaohsiung, Taiwan</p>
+	<p>I-Shyan Hwang, Yuan Ze University, Taiwan</p>
+	<p>Jason Jung, Chung-Ang University, South Korea</p>
+	<p>Jenn-Long Liu, I-Shou University, Taiwan</p>
+	<p>Jenq-Haur Wang, National Taipei University of Technology, Taiwan</p>
+	<p>Jen-Tzung Chien, National Chiao Tung University, Taiwan</p>
+	<p>Jen-Wei Huang, National Cheng Kung University, Taiwan</p>
+	<p>Jerry Chun-Wei Lin, Western Norway University of Applied Sciences, Norway</p>
+	<p>Jiann-Shu Lee, National University of Tainan, Taiwan</p>
+	<p>Jiun-Long Huang, National Chiao Tung University, Taiwan</p>
+	<p>Jung-Kuei Yang, National Dong Hwa University, Taiwan</p>
+	<p>Kawuu W. Lin, National Kaohsiung University of Science and Technology, <Taiwan></Taiwan></p>
+	<p>Kazunori Mizuno, Takushoku University, Japan</p>
+	<p>Keh-Yih Su, Institute of Information Science, Academia Sinica, Taiwan</p>
+	<p>Klaus Brinker, University of Applied Sciences Hamm-Lippstadt, Germany</p>
+	<p>Kun-Ta Chuang, National Cheng Kung University, Taiwan</p>
+	<p>Ling-Jyh Chen, Academia Sinica, Taiwan</p>
+	<p>Lung-Pin Chen, Tunghai University, Taiwan</p>
+	<p>Mark H. M. Winands, Maastricht University, Netherlands</p>
+	<p>Matteo Gaeta, University of Salerno, Italy</p>
+	<p>Min-Chun Hu, National Cheng Kung University, Taiwan</p>
+	<p>Mu-En Wu, National Taipei University of Technology, Taiwan</p>
+	<p>Po-Ruey Lei, ROC Naval Academy, Taiwan</p>
+	<p>Po-Yuan Chen, Jinwen University of Science and Technology, Taiwan</p>
+	<p>Rung-Ching Chen, Chaoyang University of Technology, Taiwan</p>
+	<p>Sai-Keung Wong, National Chiao Tung University, Taiwan</p>
+	<p>Sheng-Mao Chang, National Cheng Kung University, Taiwan</p>
+	<p>Shie-Jue Lee, National Sun Yat-Sen University, Taiwan</p>
+	<p>Shih-Cheng Horng, Chaoyang University of Technology, Taiwan</p>
+	<p>Shih-Hung Wu, Dept. of CSIE, Chaoyang University of Technology, Taiwan</p>
+	<p>Show-Jane Yen, Ming Chuan University, Taiwan</p>
+	<p>Shun-Chin Hsu, Chang-Jung Christian University, Taiwan</p>
+	<p>Tsaipei Wang, National Chiao Tung University, Taiwan</p>
+	<p>Tsan-Sheng Hsu, Academia SInica, Taipei, Taiwan, Taiwan</p>
+	<p>Tsung-Che Chiang, National Taiwan Normal University, Taiwan</p>
+	<p>Tsung-Ting Kuo, University of California San Diego, United States</p>
+	<p>Tzung-Pei Hong, National Univesity of Kaohsiung, Taiwan</p>
+	<p>Waskitho Wibisono, Department of Informatics, ITS Indonesia, Indonesia</p>
+	<p>Wei-Guang Teng, National Cheng Kung University, Taiwan</p>
+	<p>Wei-Min Liu, National Chung Cheng University, Taiwan</p>
+	<p>Wei-Ta Chu, National Chung Cheng University, Taiwan</p>
+	<p>Wen-Huang Cheng, Academia Sinica, Taiwan</p>
+	<p>Wen-Hung Liao, National Chengchi University, Taiwan</p>
+	<p>Wen-Yang Lin, National University of Kaohsiung, Taiwan</p>
+	<p>Wing-Kwong Wong, National Yunlin University of Science & Technology, Taiwan</p>
+	<p>Wu-Chih Hu, National Penghu University of Science and Technology, Taiwan</p>
+	<p>Yasufumi Takama, Tokyo Metropolitan University, Japan</p>
+	<p>Yi-Chung Chen, National Yunlin University of Science and Technology, Taiwan</p>
+	<p>Yih-Chuan Lin, National Formosa University, Taiwan</p>
+	<p>Yihsin Ho, Takushoku University, Japan</p>
+	<p>Yi-Hsuan Yang, Academia Sinica, Taiwan</p>
+	<p>Yi-Hung Wu, Chung Yuan Christian University, Taiwan</p>
+	<p>Yi-Jen Su, Shu-Te University, Taiwan</p>
+	<p>Yi-Leh Wu, National Taiwan University of Science and Technology, Taiwan</p>
+	<p>Ying-Ping Chen, National Chiao Tung University, Taiwan</p>
+	<p>Yi-Shin Chen, National Tsing Hua University, Taiwan</p>
+	<p>Yue-Shi Lee, Ming Chuan University, Taiwan</p>
+	<p>Yuling Hsueh, National Chung Cheng University, Taiwan, Taiwan</p>
+	<p>Yung-Chun Chang, Taipei Medical University, Taiwan</p>
+	<p>Yusuke Nojima, Osaka Prefecture University, Japan</p>
+    </details>
+      		</div>
+		</div>
+	</div>
+    </section>
+	<section id="program">
+      <div class="container">
+		<div class="row">
+          	<div class="col-12 text-center">
+		  		<h1></br>Preliminary Program</h1>
+			<h5>Dec.3</h5>
+            <table width=100% style="text-align: left">
+				<tr><th style="width: 30%; border-bottom: 3px solid;">Time</th><th style="border-bottom: 3px solid;">Program</th></tr>
+				<tr><td>08:30-09:00</td><td>Registration</td></tr>
+				<tr><td>09:00-10:30</td><td>Parallel Sessions (I)</td></tr>
+				<tr><td>10:30-10:50</td><td>Coffee Break</td></tr>
+				<tr><td>10:50-12:20</td><td>Parallel Sessions (II)</td></tr>
+				<tr><td>12:20-13:30</td><td>Lunch</td></tr>
+				<tr><td>13:30-13:50</td><td>Opening Ceremony</td></tr>
+				<tr><td>13:50-14:50</td><td>Keynote Speech (I)</td></tr>
+				<tr><td>14:50-15:10</td><td>Coffee Break</td></tr>
+				<tr><td>15:10-16:10</td><td>Keynote Speech (II)</td></tr>
+				<tr><td>16:10-16:20</td><td>Short Break</td></tr>
+				<tr><td>16:20-17:50</td><td>Parallel Sessions (III)</td></tr>
+				<tr><td>18:10-20:00</td><td>Welcome Reception</td></tr>
+			</table>
+			<h5>Dec.4</h5>
+            <table width=100% style="text-align: left">
+				<tr><th style="width: 30%; border-bottom: 3px solid;">Time</th><th style="border-bottom: 3px solid;">Program</th></tr>
+				<tr><td>08:30-09:00</td><td>Registration</td></tr>
+				<tr><td>09:00-10:30</td><td>Parallel Sessions (IV)</td></tr>
+				<tr><td>10:30-10:50</td><td>Coffee Break</td></tr>
+				<tr><td>10:50-12:20</td><td>Parallel Sessions (V)</td></tr>
+				<tr><td>12:20-13:30</td><td>Lunch</td></tr>
+				<tr><td>13:30-13:50</td><td>Opening Ceremony</td></tr>
+				<tr><td>13:30-14:30</td><td>Keynote Speech (III)</td></tr>
+				<tr><td>14:30-15:30</td><td>Keynote Speech (IV)</td></tr>
+				<tr><td>15:30-15:50</td><td>Coffee Break</td></tr>
+				<tr><td>15:50-17:30</td><td>Parallel Sessions (VI) & MOST Project Exhibition</td></tr>
+				<tr><td>18:00-20:00</td><td>Banquet</td></tr>
+
+			</table>
+			<h5>Dec.5</h5>
+            <table width=100% style="text-align: left">
+				<tr><th style="width: 30%; border-bottom: 3px solid;">Time</th><th style="border-bottom: 3px solid;">Program</th></tr>
+				<tr><td>08:30-09:30</td><td>Registration</td></tr>
+				<tr><td>09:30-11:30</td><td>Parallel Sessions (VII)</td></tr>
+				<tr><td>09:30-11:30</td><td>Game Tournamentsk</td></tr>
+				<tr><td>11:30-</td><td>Closing Ceremony</td></tr>
+
+			</table>
+    		</div>
+		</div>
+	</div>
+    </section>
+	<section id="talks">
+		<div class="row">
+			<div class="container">
+			<h1 class="text-center"></br>Invited Talks</h1>	
+				<div class="col-md-8 col-sm-12 col-lg-12">
+				  <div class="media">
+					<img class="mr-3" src="images/mccallum-1999.jpg" alt="Generic placeholder image">
+					<div class="media-body">
+					  <h5 class="mt-0">Prof. Andrew McCallum (Inviting)</h5>
+					  Distinguished Professor and Director,Center for Data Science in the College of Information and Computer Sciences at the University of Massachusetts Amherst Fellow of AAAI, Fellow of ACM
+					  
+					</div>
+				  </div>
+				</div>
+				<div class="row">
+          	<div class="col-12 text-left">
+            <h5 class="text-center">Biography</h5>
+			<p>Andrew McCallum is a Distinguished Professor and Director of the Center for Data Science in the College of Information and Computer Sciences at the University of Massachusetts Amherst. He has published over 300 papers in many areas of artificial intelligence, including natural language processing, machine learning, data mining and reinforcement learning; his work has received over 70,000 citations. He received his PhD from University of Rochester in 1995 with Dana Ballard and a postdoctoral fellowship from Carnegie Mellon University with Tom Mitchell and Sebastian Thrun. Afterward he worked in an industrial research lab, where he spearheaded the creation of CORA, an early research paper search engine that used machine learning for spidering, extraction, classification and citation analysis. In the early 2000's he was Vice President of Research and Development at at WhizBang Labs, a 170-person start-up company that used machine learning for information extraction from the Web. He was named a AAAI Fellow in 2009, and an ACM Fellow in 2017. He is the recipient of two NSF ITR awards, the UMass Chancellor’s Award for Outstanding Accomplishments in Research and Creative Activity, the UMass Lilly Teaching Fellowship, and research awards from IBM, Microsoft, Facebook, and Google. He was the Program Co-chair for the International Conference on Machine Learning (ICML) 2008, its General Chair in 2012, and from 2013 to 2017 was the President of the International Machine Learning Society. He is also a member of the editorial board of the Journal of Machine Learning Research. He has given tutorials or invited talks at NIPS, KDD, EMNLP, ISWC, and elsewhere. He organized the first workshop on Automated Knowledge Base Construction in 2009, and is the instigator and General Chair of the first international conference on Automated Knowledge Base Construction in 2019. He is also the creator of OpenReview.net, which is being used for peer review management and/or reviewer assignment by ICLR, UAI, COLT, ICML, CVPR, and ECCV. For the past twenty years, McCallum has been active in research on statistical machine learning applied to text, especially information extraction, entity resolution, information integration, structured prediction, clustering, finite state models, semi-supervised learning, and social network analysis. McCallum’s web page is <a target="_blank" href="https://people.cs.umass.edu/~mccallum/">https://people.cs.umass.edu/~mccallum/</a></p>
+
+			</table>
+    		</div>
+		</div>
+			</div>
+        
+
+	</section>
+	<section id="cfp">
+      <div class="container">
+		  <div class="row">
+          	<div class="col-12 text-left">
+		  <h1 class="text-center"></br>Call for Papers</h1>
+	<h2 style="font-size: 1.5em">Major topics</h2>
+    <table class="topic" style="text-align: left;width: 100%">
+	<tr>
+	<td style="width: 50%">• Machine Learning</td>
+	<td style="width: 50%">• Reinforcement learning</td>
+	</tr>
+	<tr>
+	<td>• Evolutionary computation</td>
+	<td>• Text mining / Sentiment Analysis</td>
+	</tr>
+	<tr>
+	<td>• Computer Vision / Pattern Recognition</td>
+	<td>• Recommender systems</td>	
+	</tr>
+	<tr>
+	<td>• Bioinformatics / medicine</td>
+	<td>• Computer Games</td>
+	</tr>
+	<tr>
+	<td>• Autonomous Agents and Distributed AI</td>
+	<td>• Data Mining and Knowledge Discovery</td>
+	</tr>
+	<tr>
+	<td>• Fuzzy Systems</td>
+	<td>• Knowledge Representation and Automatic Reasoning</td>
+	</tr>
+	<tr>
+	<td>• Knowledge-Based Systems</td>
+	<td>• Problem Solving and Search</td>
+	</tr>
+	<tr>
+	<td>• Planning</td>	
+	<td>• Speech Recognition and Synthesis</td>
+	</tr>
+	<tr>
+	<td>• Web Intelligence</td>	
+	<td>• Social Networks</td>
+	</tr>
+	<tr>
+	<td>• Intelligent Human-Computer Co-Evolving</td>	
+	<td>• Federated learning</td>	
+	</tr>
+	</table>
+	<h2 style="font-size: 1.5em">Special sessions & Applications</h2>
+    <table id="topic" style="text-align: left;width: 100%">
+	<tr>
+	<td style="width: 50%">• Intelligent Systems to Support Human Society</td>
+	<td style="width: 50%">• Artificial Intelligence for Behavior Analysis</td>
+	
+	</tr>
+	<tr>
+	<td>• Shikakeology</td>
+	<td>• Artificial Intelligence in the Technology and Application of Quantitative Trading</td>
+	</tr>
+	<tr>	
+	<td>• Artificial Intelligence Talent Cultivation</td>
+	<td>• AI and Law</td>	
+	</tr>
+	<tr>
+	<td>• Artificial Intelligence in Traffic</td>
+	<td>• Intelligent e-Learning & Tutoring and Educational Technology</td>
+	
+	</tr>
+	<tr>
+	<td>• AI Demand and Development for Taiwan Industry</td>	
+	<td>• Smart manufacturing</td>	
+	</tr>
+	<tr>
+	<td>• Intelligent Detection and Design</td>
+	<td>• Engineering Applications of AI</td>
+	</tr>
+	<tr>
+	<td>• Robotics and Intelligent Control</td>
+	<td>• Preprocessing Techniques</td>
+	
+	</tr>
+	<tr>
+	<td>• Hybrid AI Technique</td>	
+	</tr>
+	</table>
+
+      		</div>
+		</div>
+	</div>
+    </section>
+	
+
+
+	<section id="venue">
+      <div class="container">
+		  <div class="row">
+          	<div class="col-12 text-center">
+		  <h1></br>Venue</h1>
+             <img class="center" width="70%" src="images/Howard civil service international hourse.jpg" alt="venue">
+    <p>
+        公務人力發展學院福華國際文教會館座落於台北市大安區文教及經濟商務中心，會館交通便捷，且具備充足的會議室數量。除會館本身提供住宿客房外，會場鄰近多個3星 - 5星飯店可供選擇。
+        會場週邊交通便利，自捷運台電大樓站2號出口，步行約10~15分鐘可達福華國際文教會館。距離台大校園也只需步行五分鐘。
+    </p>
+    <h2 style="font-size: 1.5em">Directions</h2>
+    <iframe class="directions" width="70%" src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3615.3097328663293!2d121.53181566500605!3d25.023560733977302!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1z56aP6I-v5ZyL6Zqb5paH5pWZ5pyD6aSo!5e0!3m2!1sen!2stw!4v1590304677155!5m2!1sen!2stw"></iframe>
+	<p>direction</p>
+      		</div>
+		</div>
+	</div>
+    </section>
+
+	<section id="patrons">
+      <div class="container">
+		  <div class="row">
+          	<div class="col-12 text-center">
+		  <h1></br>Patrons</h1>
+              <p>
+				Nothing
+
+      		</div>
+		</div>
+	</div>
+    </section>
+
     <footer class="text-center">
       <div class="container">
         <div class="row">
