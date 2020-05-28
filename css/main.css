@@ -1,0 +1,31 @@
+body {
+    position: relative;
+}
+body:before {
+    content: ' ';
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: block;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.05;
+}
+h1{clear:left; color: #813c54;top:-1.5em; margin:1.5em 0em 1em 0em; font-family:'Roboto Slab',serif; text-shadow: 1px 1px 2px #d0d0d0;text-align: center;}
+p{list-style:none; margin:15px auto 24px auto; padding:0px; width:80%; text-align:left;font-size:1.2em;}
+h2{clear:left; color:#0903B3; margin:1.5em 0em 1em 0em; text-align: left;}
+
+.top-left {font-size:1.5em; color: #fafafa; line-height: 1.5em; width: auto; height: 100px; padding: 0px 0px 0px 0px; text-align: left; position: absolute; top:100px; left:50px; text-shadow: 0px 0px 16px #505050;}
+
+.bottom-right {font-size:3.5em; color: #fafafa; line-height: 1.5em; width: auto; height: 100px; padding: 0px 27px 27px 0px; text-align: right; bottom:20%;position: relative;  text-shadow: 0px 0px 16px #505050;}
+
+.title1{
+	font-size:5.33em; font-weight: normal; color: #505050; 
+	color: #b2132e; text-shadow: 1px 1px 3px #c0c0c0;} 
+.title2{font-size: 2em; color: black; text-shadow: 1px 1px 3px #c0c0c0;}
+.year{color: lightskyblue; font-size:3em; font-weight: lighter;}
